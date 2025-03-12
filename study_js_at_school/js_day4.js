@@ -162,20 +162,38 @@
 // ten: String, tuoi: number
 // animal => mamal => human || Human = Mamal('Human', false) || Dog = Mamal('Dog', true);
 
-function Animal(loai) {
-  return {
-    loai,
-    taoAmThanh: function(tiengGoi) {
-      console.log(tiengGoi);
-    },
-  };
-}
+// function Animal(loai) {
+//   return {
+//     loai,
+//     taoAmThanh: function(tiengGoi) {
+//       console.log(tiengGoi);
+//     },
+//   };
+// }
 
-function Mamal(loai, coLong) {
-  var mamal = Animal(loai);
-  mamal.coLong = coLong;
-  mamal.moTa = function() {
-    console.log(`Đây là một loài ${this.loai} và ${this.coLong ? 'có' : 'không có '} lông`);
-  };
-  return mamal;
-}
+// function Mamal(loai, coLong) {
+//   var mamal = Animal(loai);
+//   mamal.coLong = coLong;
+//   mamal.moTa = function() {
+//     console.log(`Đây là một loài ${this.loai} và ${this.coLong ? 'có' : 'không có'} lông`);
+//   };
+//   return mamal;
+// }
+
+// function Human(ten, tuoi) {
+//   var human = Mamal('Human', false);
+//   human.ten = ten;
+//   human.tuoi = tuoi;
+//   human.gioiThieu = function() {
+//     console.log(`Xin chào, tôi tên là ${this.ten} và tôi ${this.tuoi} tuổi`);
+//   };
+//   return human;
+// }
+// var dog = Mamal('Dog', true);
+// dog.taoAmThanh('Gâu gâu');
+// dog.moTa();
+
+// var human = Human('Long', 21);
+// human.taoAmThanh('Hello');
+// human.moTa();
+// human.gioiThieu();
