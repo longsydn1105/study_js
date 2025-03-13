@@ -151,3 +151,4 @@
 // //arr.forEach2(chanLe);
 // greeting('Long', goodbye);
 
+// --------------------------- PROMISE-------------------------
