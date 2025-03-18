@@ -54,3 +54,42 @@
 //6. HTML Collection
 
 //7. document.write
+
+
+// DOM attribute
+
+// var headingElement = document.querySelector('h1');
+// headingElement.title = 'Heading';
+// headingElement.id = 'heading-1';
+
+// headingElement.setAttribute('class','heading');
+// console.log(headingElement.getAttribute('class'));
+//console.log(headingElement);
+
+
+//* innerText: Chỉ lấy ra text mà chúng ta nhìn thấy trên màn hình hiển thị
+// ! textContent: Lấy ra tất cả text mà nằm trong thẻ đó
+// todo: 
+// var headingElement = document.querySelector('h1');
+// headingElement.innerHTML = 'New Heading';
+// headingElement.outerHTML = '<h6>New Heading 123</h6>';
+// console.log(headingElement.innerHTML);
+
+// * InnnerHTML and OuterHTML
+
+// var boxElement = document.querySelector('.box');
+// boxElement.innerHTML = '<h1 title="heading">Heading</h1>';
+// console.log(boxElement.innerHTML);
+
+// var courses = ['HTML & CSS', 'Javascript', 'PHP', 'Java']
+
+// function render(courses) {
+//     var ulElement = document.querySelector('ul');
+
+//     ulElement.innerHTML = courses.map(course => 
+//         `<li>${course}</li>`
+//     ).join('');
+//     return ulElement;
+// }
+
+//  render(courses)
