@@ -93,3 +93,33 @@
 // }
 
 //  render(courses)
+
+// TODO: DOM CSS
+// var boxElement = document.querySelector('.box');
+
+// boxElement.style.width = '100px';
+// boxElement.style.height = '200px';
+// boxElement.style.backgroundColor = 'gray';
+
+// *Cách gán được 1 lần nhiều style
+// Object.assign(boxElement.style, {
+//     width: '200px',
+//     height: '100px',
+//     backgroundColor: 'green',
+// });
+
+// TODO: Classlist property
+//* add
+//* contains 
+//* remove
+//* toggle // ! Nếu phần tử chưa có thuộc tính đó thì sẽ tự thêm và ngược lại
+
+// var boxElement = document.querySelector('.box');
+// boxElement.classList.add('red', 'weight');
+// console.log(boxElement.classList.contains('red'));
+//boxElement.classList.remove('weight');
+
+// setInterval(() =>{
+//     boxElement.classList.toggle('red');
+// },500);
+
